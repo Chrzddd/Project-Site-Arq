@@ -1,0 +1,197 @@
+
+body{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #3c6085, #4b5f70, #263e48);
+    background-size: 400% 400%;
+    animation: animate-background 10s ease-in-out infinite; 
+}
+@keyframes animate-background{
+    0%{
+       background-color: 0 50%;
+    }
+    50%{
+       background-color: 100% 50%;
+       
+    }
+    100%{
+       background-color: 0 50%;
+       
+    }
+}
+#edit-barra{
+    margin-top: 100px;
+}
+#barra-opcoes { 
+    margin: auto;
+    width: 80%;
+    height: 50px;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    min-width: 560px;
+}
+#barra-home-esquerda {
+    float: right;
+    padding-top: 15px;
+    margin-right: 35px;
+
+}
+#barra-home-esquerda ul a {
+    background: url(img/divisor.png) no-repeat left center;
+    padding-left: 15px;
+    
+}
+#barra-home-esquerda ul .primeiro a{
+    background: none;
+    
+}
+#edit-logo-top{
+    float: right;
+    padding-top: 10px;
+    margin-right: 25px;
+    padding: 10px;
+}
+#barra-home-esquerda ul li {
+    display: inline;
+
+    
+}
+#barra-opcoes a{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+}
+#barra-opcoes ul a:hover { 
+    color: #e0dada;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#edit-logo-top a:hover{
+    color: #e0dada;
+    text-decoration: none;
+
+}
+#barra-home-esquerda button {
+    border: none;
+    background: none;
+    color: #fff;
+    padding-left: -10px;   
+}
+.modal {
+    margin:  auto;
+}
+.modal-content { 
+
+    background: rgba(255, 255, 255, 0.549);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.434);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+#message-text{
+    resize: none;
+  
+}
+.modal-content .form-control {
+    box-shadow: none;
+    border: none;
+    outline: none
+}
+.modal-header .btn-close { 
+    box-shadow: none;
+    border: none;
+    outline: none
+}
+.modal-footer button{
+    box-shadow: none;
+    border: none;
+    outline: none
+}
+.modal-footer input {
+    background-color: aliceblue;
+}
+#barra-home-esquerda button:hover {
+
+    background: none;
+    color: #e0dada;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+body.home #barra-home-esquerda ul a#home,
+body.projetos #barra-home-esquerda ul a#projetos,
+body.sobre #barra-home-esquerda ul a#sobre,
+body.contato #barra-home-esquerda ul a#contato
+{ 
+    color: #e0dada;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: text;
+}
+#Carousel-front-page{
+    width: 50%;
+    height:400px;
+    margin: auto;
+    margin-top: 50px;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    min-width: 720px;
+}
+.carousel-inner {
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+    padding-top: 42px;
+}
+.carousel-inner img {
+    border-radius: 5px;
+}
+#form-contato-edit{
+    width: 60%;
+    margin: auto;
+    padding-top: 40px;
+}
+#text-area-edit{
+    margin-left: 115px;
+}
+#text-area-edit textarea{
+resize: none;
+margin-left: -34px;
+margin-top: -24px;
+border-radius: 5px;
+}
+#button-enviar{
+    padding-top: 10px;
+  float: right;
+}
+#button-enviar button{
+    width: 80px;
+    border-radius: 3px;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    background: rgba(27, 36, 63, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(7, 9, 41, 0.37);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border: 1px solid rgba(2, 48, 77, 0.18);
+    bottom:0;
+    position: absolute;
+}
+footer p {
+    padding-top: 12px;
+    color: #fff;
+    text-align: center;
+
+}
